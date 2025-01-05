@@ -112,3 +112,12 @@ export const accounts = {
     },
   ],
 };
+
+export const accountSummary = {
+  accountSummary: {
+    // TRON has over 163.32m accounts holding TRX.
+    //About 57.91% of accounts on TRON hold TRX.
+    tronHolders: { holders: 163325633, percentage: 57.91 },
+    dailyActiveAccounts: { accounts: 112345, percentage: -4.64 },
+  },
+};
