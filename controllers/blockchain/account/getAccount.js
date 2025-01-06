@@ -1,19 +1,18 @@
 import { HttpStatusCode } from "axios";
 import { ResponseError, ResponseSuccess } from "../../../utils/response";
 import { ERROR_MESSAGES, SUCCESS_MESSAGE } from "../../../constant/message";
-import { accountSummary as data } from "../../../db/accounts";
+import { accountDetails} from "../../../db/accountDetails";
 
-export const getAccountSummary = async (req, res) => {
+export const getRegularAccount = async (req, res) => {
   try {
-
-    const { accountSummary } = data;
+    const { address } = req.params;
 
     return ResponseSuccess(HttpStatusCode.Ok, {
       res,
-      message: SUCCESS_MESSAGE.LOAD_SUCCESS("Accounts Summary"),
+      message: SUCCESS_MESSAGE.LOAD_SUCCESS("Account details"),
       data: {
         meta: null,
-        accountSummary,
+        accountDetails,
       },
     });
   } catch (error) {

@@ -1,7 +1,7 @@
 export const accounts = {
   accounts: [
     {
-      accountAddress: "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
+      address: "T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb",
       accountType: "Normal",
       hasPublicName: true,
       publicName: "JohnDoe",
@@ -12,7 +12,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-03T15:24:00Z",
     },
     {
-      accountAddress: "TA7j9g3kLuNxUjyEY4qx9fB8nqMuY5RWmV",
+      address: "TA7j9g3kLuNxUjyEY4qx9fB8nqMuY5RWmV",
       accountType: "Contract",
       hasPublicName: false,
       publicName: null,
@@ -23,7 +23,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-04T12:40:00Z",
     },
     {
-      accountAddress: "TB6c4g9m8PKpEY89RF7uNTyE7XkZqCd9xp",
+      address: "TB6c4g9m8PKpEY89RF7uNTyE7XkZqCd9xp",
       accountType: "Normal",
       hasPublicName: true,
       publicName: "AliceTron",
@@ -34,7 +34,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-03T18:30:00Z",
     },
     {
-      accountAddress: "TCzR5MujTLnDg8RMkHyG7aWpkETkPb5H7o",
+      address: "TCzR5MujTLnDg8RMkHyG7aWpkETkPb5H7o",
       accountType: "Contract",
       hasPublicName: false,
       publicName: null,
@@ -45,7 +45,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-02T10:15:00Z",
     },
     {
-      accountAddress: "TD4kY9sMNkR7BxVuXmQZqFu6YTnkTW2NmT",
+      address: "TD4kY9sMNkR7BxVuXmQZqFu6YTnkTW2NmT",
       accountType: "Normal",
       hasPublicName: true,
       publicName: "CryptoKing",
@@ -56,7 +56,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-03T20:45:00Z",
     },
     {
-      accountAddress: "TE2uBn8oFKLqWRX9zNY7xjBmKLXTF8UzX9",
+      address: "TE2uBn8oFKLqWRX9zNY7xjBmKLXTF8UzX9",
       accountType: "Normal",
       hasPublicName: false,
       publicName: null,
@@ -67,7 +67,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-01T14:00:00Z",
     },
     {
-      accountAddress: "TF1zN3uWKJmNP8qBR9qFX9MYTNgVqXkZXT",
+      address: "TF1zN3uWKJmNP8qBR9qFX9MYTNgVqXkZXT",
       accountType: "Normal",
       hasPublicName: true,
       publicName: "TronFan",
@@ -78,7 +78,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-04T09:20:00Z",
     },
     {
-      accountAddress: "TG7yRMNKP9VFXqLWXMJBT7kYTNVzN4mXRN",
+      address: "TG7yRMNKP9VFXqLWXMJBT7kYTNVzN4mXRN",
       accountType: "Contract",
       hasPublicName: true,
       publicName: "SmartTron",
@@ -89,7 +89,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-02T16:45:00Z",
     },
     {
-      accountAddress: "TH5zF9oQMLKqTWYXT9zN7uWMKJNqX8XmNP",
+      address: "TH5zF9oQMLKqTWYXT9zN7uWMKJNqX8XmNP",
       accountType: "Normal",
       hasPublicName: true,
       publicName: "DevTron",
@@ -100,7 +100,7 @@ export const accounts = {
       lastTransactionDateTime: "2025-01-03T11:10:00Z",
     },
     {
-      accountAddress: "TJ4qNY9sPKMNBqXT7zFqWX9zNYLqXTRMJ2",
+      address: "TJ4qNY9sPKMNBqXT7zFqWX9zNYLqXTRMJ2",
       accountType: "Contract",
       hasPublicName: false,
       publicName: null,
